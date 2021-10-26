@@ -17,6 +17,7 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web dev world....
