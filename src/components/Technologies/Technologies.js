@@ -18,6 +18,8 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
+    <br />
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web dev world....
@@ -28,8 +30,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React, TypeScript
+            Strong knowledge of JavaScript, CSS preprocessors and responsive web design patterns. <br />
+            Experience with
+            React, TypeScript and Python.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,8 +41,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            NodeJS, Express, MongoDB
+            Experience with building complex RESTful applications using NodeJS, MongoDB, Express, .NET Core MVC.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -49,7 +51,7 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma, AdobeXD
+            Figma, AdobeXD, Photoshop.
           </ListParagraph>
         </ListContainer>
       </ListItem>

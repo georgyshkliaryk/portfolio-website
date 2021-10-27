@@ -8,10 +8,10 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 20, text: "Open Source Projects" },
-  { number: 1000, text: "Students" },
-  { number: 1900, text: "Github Followers" },
-  { number: 5000, text: "Github Stars" },
+  { number: 20, text: "GitHub Projects" },
+  { number: 1, text: "year as a freelance developer" },
+  { number: 2, text: "years of React development" },
+  { number: 1, text: "years of experience as Sofware Engineer" },
 ];
 
 const Acomplishments = () => (
@@ -21,7 +21,7 @@ const Acomplishments = () => (
       {data.map((card, i) => (
         <Box key={i}>
           <BoxNum>{card.number}+</BoxNum>
-          <BoxText>{card.text}</BoxText>
+          <BoxText>{card.text}</BoxText> 
         </Box>
       ))}
     </Boxes>

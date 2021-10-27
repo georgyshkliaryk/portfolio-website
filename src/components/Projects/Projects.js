@@ -28,9 +28,9 @@ const Projects = () => (
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <Img src={image} />
+            <Img src={image} style={{objectFit: "cover", width: "40rem", height: "20rem"}}/>
             <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
+              <HeaderThree title="true">{title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
@@ -45,8 +45,12 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Live Demo</ExternalLinks>
+              <ExternalLinks href={visit} target="_blank">
+                Code
+              </ExternalLinks>
+              <ExternalLinks href={source} target="_blank">
+                Live Demo
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         )

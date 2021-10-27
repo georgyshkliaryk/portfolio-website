@@ -20,7 +20,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+375(25)535-71-91">+375(25)535-71-91</LinkItem>
+          <LinkItem href="tel:+375255357191">+375 (25) 535-71-91</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -33,15 +33,15 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
-        <SocialIcons href="/">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="/">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="/">
-          <AiFillFacebook size="3rem" />
-        </SocialIcons>
+        <SocialIcons href="https://github.com/georgyshkliaryk" target="_blank">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/heorhi-shkliaryk-64b927206/" target="_blank">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.facebook.com/h.shkliaryk/" target="_blank">
+        <AiFillFacebook size="3rem" />
+      </SocialIcons>
       </SocialIconsContainer> 
     </FooterWrapper>
   );
