@@ -22,7 +22,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web dev world....
+      I primarly use React (usually in MERN stack) to build various products, from simple SPA's to complex E-Commerce services.
     </SectionText>
     <List>
       <ListItem>
@@ -32,7 +32,7 @@ const Technologies = () => (
           <ListParagraph>
             Strong knowledge of JavaScript, CSS preprocessors and responsive web design patterns. <br />
             Experience with
-            React, TypeScript and Python.
+            React, TypeScript, NextJS and Python.
           </ListParagraph>
         </ListContainer>
       </ListItem>
